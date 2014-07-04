@@ -8,4 +8,6 @@ autopublish
 insecure
 bootstrap
 accounts-twitter
-accounts-ui
+accounts-ui-bootstrap-dropdown
+accounts-password
+iron-router

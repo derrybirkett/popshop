@@ -1,38 +1,3 @@
 <head>
   <title>Microscope</title>
 </head>
-<body>
-    <div class="container">
-
-    <header class="navbar">
-        <div class="navbar-inner">
-            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            </a>
-            <a class="brand" href="{{pathFor 'postsList'}}">Popshop</a>
-            <div class="nav-collapse collapse">
-                <ul class="nav pull-right">
-                    <li>{{>loginButtons}}</li>
-                </ul>
-            </div>
-        </div>
-    </header>
-
-    {{>list}}
-
-    </div>
-</body>
-
-
-<template name="list">
-Hello
-   <ul>
-       {{#each userInCollection}}
-           <li><img src="{{services.twitter.profile_image_url}}" />{{profile.name}} (@{{services.twitter.screenName}})</li>
-       {{/each}}
-   </ul> 
-</template>
-
-
