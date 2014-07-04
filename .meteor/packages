@@ -6,8 +6,8 @@
 standard-app-packages
 autopublish
 insecure
-bootstrap
 accounts-twitter
-accounts-ui-bootstrap-dropdown
 accounts-password
 iron-router
+bootstrap-3
+accounts-ui-bs3-and-blaze
