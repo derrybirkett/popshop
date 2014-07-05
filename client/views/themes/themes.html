@@ -1,0 +1,7 @@
+<template name="themes">
+
+    {{#each theme}}
+        <div class="theme"><a href="{{pathFor 'theme'}}">{{title}}</a> by {{author}}</div>
+    {{/each}}
+
+</template>

@@ -1,3 +1,3 @@
-Template.list.helpers({
+Template.users.helpers({
   user:function() { return Meteor.users.find();}
 })
